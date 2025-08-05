@@ -1,13 +1,13 @@
 import React from "react";
 import Subfooter from './Subfooter';
 import Footer from './Footer';
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 const Aboutus = ()=>{
     return(
         <><div  style={{backgroundColor:"#dcdde1"}}>
         <h1 className="card-title text-center pt-5 mb-5 fs-1">Learn More About Us.</h1>
         <div className="container pb-5">
-            <img src="https://images.unsplash.com/photo-1562169819-9f9031fedd3d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="img-fluid  mx-auto d-block mb-5" style={{maxHeight:"400px",width:"1000px"}}/>
+            <img src="https://images.unsplash.com/photo-1562169819-9f9031fedd3d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="nothing" className="img-fluid  mx-auto d-block mb-5" style={{maxHeight:"400px",width:"1000px"}}/>
        <div className="container" style={{maxWidth:"800px"}}>
         <h5 className="card-text aboutpara mb-5">
         Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation 
